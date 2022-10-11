@@ -1,0 +1,48 @@
+.exercise-card {
+    width: 300px;
+    height: 550px;
+    border: 1px solid #004445;
+    border-radius: 8px;
+    position: relative;
+
+}
+
+.exercise-card img {
+    width: 286px;
+    height: 200px;
+    margin: 7px;
+}
+
+.exercise-card .name {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    margin-top: 7px;
+
+}
+
+.info {
+    margin: 0 14px;
+    padding: 5px;
+}
+
+.text {
+    font-weight: normal;
+    color: black;
+}
+
+.btn-text {
+    width: 100%;
+    background-color: #004445;
+    color: white;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    cursor: pointer;
+}
+
+.btn-text:hover {
+    background-color: #004445;
+}
